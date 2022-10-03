@@ -17,9 +17,9 @@
     </head>
     <body>
         <h1><sapn>반</span><span>려</span><span>동</span><span>물</span><span>의</span> <span>약</span></h1>
-            <form action="">
+            <form action="https://www.google.com/search" method="GET">
             <div class="search-bar mx-auto mt-5 input-group mb-3">
-                <input type="text" class="form-control rounded-pill" class="form-control" placeholder="약의 이름을 입력하세요" aria-label="Recipient's username">
+                <input name="q" class="form-control rounded-pill" class="form-control" placeholder="약의 이름을 입력하세요" aria-label="Recipient's username">
             </form>
               </div>
         <ol>

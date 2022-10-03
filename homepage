@@ -27,18 +27,46 @@
             <li><a href="외부기생충.html">외부기생충</a></li>
             <li><a href="약 먹이는 방법.html">약 먹이는 방법</a></li>
         </ol>
-        <h2> 그 외의 약 종류 </h2>
         <p>
 </html>
-     <ol><li><strong>Antibiotics:</strong>these are drugs that kill microbes, such as bacteria and yeast, and are used to treat infections. They don’t kill viruses, but they are sometimes prescribed to treat secondary bacterial infections that can occur when an animal is ill from a viral infection. Examples in dogs and cats include penicillin, trimethoprim-sulfa, cephalexin and enrofloxacin.</li>
-<li><strong> Non-steroidal anti-inflammatories:</strong> these common drugs reduce swelling, inflammation, pain and lameness. Examples include carprofen, deracoxib, firocoxib, and meloxicam.
-Opioid pain relievers: these medications are generally derived from morphine and can be potent pain relievers. Examples include oxycodone, hydromorphone, butorphanol, meperidine and fentanyl. Most of these drugs are controlled substances because of their addictive potential.</li>
-<strong>Steroids:</strong> steroids have many different uses. They can be potent anti-inflammatories and are frequently used to reduce allergic and anaphylactic reactions. They are also used at high doses to suppress the immune system.  Examples include prednisone, prednisolone and dexamethasone.
-<li><strong>Antiparasitics:</strong> these products are intended to prevent, repel or kill internal or external parasites such as intestinal worms, intestinal protozoans (Giardia, etc.), heartworms, fleas and ticks.</li>
-<li><strong>Behavior-modifying drugs and sedatives:</strong> these drugs are used to quiet anxious pets or help in reducing anxiety associated with various behavioral issues in pets, prepare pets for anesthesia, and to reduce pet movement during delicate procedures. Examples include diazepam, xylazine, acepromazine and midazolam.</li>
-<li><strong>Hormones and other medications used to treat specific conditions:</strong> Examples include insulin used for diabetes treatment, methimazole or levothyroxine for abnormal thyroid hormone levels, and heart medications such as atenolol, digoxin, and pimobendan.</li>
-<li><strong>Chemotherapeutics:</strong> these drugs are used to treat tumors and cancer. Examples include cisplatin, vincristine, doxorubicin and cyclophosphamide.</li>
-    </ol>
+<div class="mx-auto accordion" id="accordionPanelsStayOpenExample">
+    <div class="mx-auto accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+          Accordion Item #1
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+        <div class="mx-auto accordion-body">
+          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="mx-auto accordion-item">
+      <h2 class="mx-auto accordion-header" id="panelsStayOpen-headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+          Accordion Item #2
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+        <div class="mx-auto accordion-body">
+          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="mx-auto accordion-item">
+      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+          Accordion Item #3
+        </button>
+      </h2>
+      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+        <div class="accordion-body">
+          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+  </div>
     <a><a href="https://www.avma.org/resources/pet-owners/petcare/your-pets-medications"> 출처 </a>
 </body>
 </html>

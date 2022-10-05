@@ -2,7 +2,7 @@
 <html lang="ko">
 
 </html>
-<html>s
+<html>
     <head>
         <style>
             p{
@@ -19,54 +19,21 @@
         <h1><sapn>반</span><span>려</span><span>동</span><span>물</span><span>의</span> <span>약</span></h1>
             <form action="https://www.google.com/search" method="GET">
             <div class="search-bar mx-auto mt-5 input-group mb-3">
-                <input name="q" class="form-control rounded-pill" class="form-control" placeholder="약의 이름을 입력하세요" aria-label="Recipient's username">
+                <input name="q" class="form-control rounded-pill" class="form-control" placeholder="그외에 알고 싶은 것을 입력하세요" aria-label="Recipient's username">
             </form>
               </div>
-        <ol>
-            <li><a href="심장사상충.html"> 심장사상충</a></li>
-            <li><a href="외부기생충.html">외부기생충</a></li>
-            <li><a href="약 먹이는 방법.html">약 먹이는 방법</a></li>
-        </ol>
         <p>
 </html>
-<div class="mx-auto accordion" id="accordionPanelsStayOpenExample">
-    <div class="mx-auto accordion-item">
-      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-          Accordion Item #1
-        </button>
-      </h2>
-      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-        <div class="mx-auto accordion-body">
-          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-        </div>
-      </div>
-    </div>
-    <div class="mx-auto accordion-item">
-      <h2 class="mx-auto accordion-header" id="panelsStayOpen-headingTwo">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-          Accordion Item #2
-        </button>
-      </h2>
-      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-        <div class="mx-auto accordion-body">
-          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-        </div>
-      </div>
-    </div>
-    <div class="mx-auto accordion-item">
-      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-          Accordion Item #3
-        </button>
-      </h2>
-      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-        <div class="accordion-body">
-          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-        </div>
-      </div>
-    </div>
-  </div>
-    <a><a href="https://www.avma.org/resources/pet-owners/petcare/your-pets-medications"> 출처 </a>
+<div class="mx-auto col-md-3">
+  <div class="card" style="width: 95%">
+  <img src="강아지.img" class="card-img-middle">
+<div class="card-body">
+  <h3 class="card-body">
+    <h5 class="card-title"> <strong>반려동물의 대표적인 약들</strong></h5>
+    <p class="card-text">반려동물의 질병을 예장하기 위한 대표적인 약들론 무엇이 있으며 어떻게 복용할까?</p>
+    <a href="종합.html" button type="button" class="btn btn-primary">내용 더보기</button></a>
+  </h3>
+</div>
+</div>
 </body>
 </html>

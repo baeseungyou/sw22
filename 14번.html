@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<body>
+    <script>
+        let value = prompt("숫자를 입력하세요")?? "취소";
+        if (value === "취소"){
+            console.log(value);
+        }
+        else {
+            console.log('입력값 : ${value}');
+            console.log('변환전 자료형 : ${typeof (value)}');
+            console.log('Number() 변환 : ${Number (value)}');
+            console.log('parseInt() 변환 : ${parseInt(value)}');
+            console.log('parseFloat() 변환 : ${parseFloat (value)}');
+            console.log('Boolean() 변환 : ${Boolean (value)}');
+        }
+    </script>
+</body>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<body>
+    <script>
+        let menu, start, time = 0, t = 0;
+        const term = 2;
+
+        menu = prompt('1. 백미쾌속 2. 잡곡밥 3.누룽지')?? '취소';
+        if (menu==='1'){
+            menu = '백미쾌속';
+            time = 30;
+        }
+        else if (menu==='2'){
+            menu = '잡곡밥';
+            time = 40;
+        }
+        else if (menu === '3'){
+            menu = '누룽지';
+            time = 50;
+        }
+        else {
+            menu = null;
+        }
+
+        start = menu ? prompt('${menu} 시작') : '취소';
+        if (start === '취소' || start !== ''){
+            alert('취소 되었습니다.');
+        }
+        else {
+            let answer = '${menu}을 시작합니다 <br>';
+            answer += '소요 시간은 ${time}입니다<p>';
+                document.write(answer);
+
+                while ( t< time){
+                    t += term;
+                    document.write('${t} 경과 <br>');
+                }
+                document.write('${menu}(이)가 완료되었습니다');
+        }
+    </script>
+</body>

@@ -1,0 +1,53 @@
+<!-- 20225169 배승유 13번 문제 -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+<script>
+    class Account {
+        constructor(name, balance, tel){
+            this.name = name;
+            this.balance = balance;
+            this.tel = tel;
+        }
+        get Tel() { return this. tel; }
+        set Tel(tel) { this.tel = tel; }
+        get Balance() { return balance; }
+
+        deposit(money) { this.balance += money; }
+
+        withdraw(money){
+            if (this.balance > money){
+                this.balance -= money;
+            }
+            else{
+                document.write('잔액 부족 : ${money - this.balance} <br>');
+            }
+        }
+        display(){
+            document.write('예금주 : ${this.name} <br>');
+            document.write('연락처 : ${this.tel} <br>');
+            document.write('현재 잔액 : ${this.balance} <br>');
+        }
+    }
+    
+    let accl = new Account('스크립트', 50000, '010-8765-1386');
+
+    document.write('현재 상태입니다 <br>')
+    accl.display();
+    accl.deposit(50000);
+
+    document.write('<br>50000 예금 후 상태입니다 <br>')
+    accl.display();
+
+    document.write('<br>1000000을 인출하려고 합니다 <br>')
+    accl.withdraw(1000000);
+
+    document.write('<br>변경 전 연락처 ${accl.Tel}');
+    accl.Tel = '010-3456-9743';
+    document.write('<br>변경 후 연락처 ${accl.Tel}');
+</script>
+</body>
+</html>

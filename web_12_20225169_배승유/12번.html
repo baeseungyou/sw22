@@ -1,0 +1,19 @@
+<!-- 20225169 배승유 -->
+<!DOCTYPE html>
+<head>
+    <meta charset = "UTF-8">
+    <script>
+        let cnt = Number(prompt('생성하고자 하는 난수 개수를 입력하세요'));
+        let rnd = new Array(cnt);
+        for (let i =0; i < cnt; i++){
+            rnd[i] = Math.floor(Math.random() * 900 + 100);
+        }
+        document.write('배열 원소를 출력합니다 <br>');
+        document.write(rnd.toString());
+
+        document.write('<p>배열 마지막 원소부터 출력합니다<br>');
+            while (rnd.length >= 1){
+                document.write('${rnd.length}) ${rnd.pop()} <br>');
+            }
+    </script>
+</head>

@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html lang="en">    
+    <head>  
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="width=device-width, intial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Document</title>
+    </head>
+    <body>
+        <div>
+            <hr>
+            <h3> 오디오 사용</h3>
+            <span> 배경음악 </span>
+            <audio controls autoplay>
+                <source src="./multi/kalimba.mp3" type=""audio/mp3">
+                <source src="./multi/kalimba.ogg" type=""audio/ogg">
+            </audio>
+            <hr>
+        </div>
+        <div>
+            <hr>
+            <h3>2. 웹 프로그래밍 개발 </h3>
+            <details>
+                <summary> 프런트 엔드 프로그램 
+                    <p> html, css, javascript </p>
+                </summary>
+            </details>
+            <details>
+                <summary> 백 엔드 프로그램 </summary>
+                <p> jsp, asp, php </p>
+            </details>
+            <details> 
+                <summary> 풀 스택 </summary>
+                <p> 프런트 엔드 + 백 엔드 </p>
+            </details>
+        </div>
+    </body>

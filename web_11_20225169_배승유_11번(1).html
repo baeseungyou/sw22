@@ -1,0 +1,25 @@
+<!-- 20225169 배승유 11번 문제 -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        </body>
+        </html>
+<script>
+    const album = {
+        singer : '이소라',
+        title : 3.50,
+        play(cnt){
+            let total = 0;
+            for (let i = 1; i <= cnt; i++){
+                total += Number(this.time);
+                document.write('${i} 번째 재생 => &nbsp;가수 : ${this.singer},&nbsp; 제목: ${this.title}, &nbsp; 전체 재생시간 : ${total} <br>')
+            }
+        }
+    };
+
+    album.play(5);
+</script>

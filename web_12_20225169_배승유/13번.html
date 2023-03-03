@@ -1,0 +1,17 @@
+<!-- 20225169 배승유 -->
+<!DOCTYPE html>
+<head>
+    <meta charset = "UTF-8">
+    <script>
+        let dim = new Array();
+
+        for (leti i = 0; i < 10; i++){
+            dim.push(Math.floor((Math.random() * 11) + 10));
+        }
+        console.log('중복 요소 제거 전 : ${dim.toString()}');
+
+        const result = dim.filter((v, i, arr) => arr.indexOf(v) ===i);
+
+        console.log('중복 요소 제거 후 : ${result.toString()}');
+    </script>
+    </head>

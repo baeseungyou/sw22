@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<body>
+    <script>
+        let digit = Number(prompt("정수 입력"));
+        document.write('입력한 수${digit}<br>');
+
+        let data;
+        //let result='';
+
+        document.write('역순 출력 : ');
+        while (digit > 0){
+            data = digit % 10;
+            document.write(data);
+            //result += data;
+            digit = parseInt(digit / 10);
+        }
+        //document.write(result,'<br>');
+    </script>
+    <script>
+        document.write('<br><br>');
+        let value = prompt("정수 입력");
+        document.write('입력한 수${value}<br>');
+
+        length = value.length;
+        value = Number(value);
+
+        document.write('역순 출력 : ');
+        for (let i = 0; i<length; i++){
+            document.write(value%10);
+            value = parseInt(value/10);
+        }
+    </script>
+</body>

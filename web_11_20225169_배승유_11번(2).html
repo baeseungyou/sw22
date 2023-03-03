@@ -1,0 +1,27 @@
+<!-- 20225169 배승유 11번 문제 -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        </body>
+        </html>
+<script>
+    function Album(singer, title, time){
+        this.singer = singer; //이소라,
+        this.title = title; // '바람이 분다',
+        this.time = time; // 3.50,
+        this.play = function (cnt){
+            let total = 0;
+            for (let i = 1; i<= cnt; i++){
+                total += Number(this.time);
+                document.write('${i} 번째 재생 => &nbsp; 가수 : ${this.singer},&nbsp; 제목: ${this.title}, &nbsp; 전체 재생시간 : ${total} <br> ')
+            }
+        };
+    }
+
+    let song = new Album('이소라', '바람이 분다', '3.50');
+    song.play(5);
+</script>

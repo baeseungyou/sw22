@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+    <body>
+        <script>
+            const callback = function(){
+               let ranval, max=0;
+               for(let i=0; i<3; i++){
+                ranval = Math.floor(Math.random()*41)+50;
+                consol.log('콜백 함수 실행(${i+1}): $ {ranval}');
+                if (ranval > max) max = ranval;
+               } 
+               return max; 
+            }
+
+            const func_call = (fcall) => {
+                for(let i=0; i<2; i++){
+                    consol.log('콜백 함수 ${i} 호출');
+                    consol.log('3개 중 큰값 = ' + fcall());
+                }
+            }
+            func_call(callback);
+        </script>
+    </body>

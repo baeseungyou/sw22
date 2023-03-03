@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <script>
+        function checkedclick(){
+            let gethobby = document.getElementsByName("hobby");
+            let answer = '선택된 결과를 출력합니다\n';
+
+            for(let i=0; i<gethobby.length; i++){
+                if(gethobby[i].checked == true){
+                    answer +=  gethobby[i].value;
+                    answer += '\n'
+                
+                }
+            }
+            alert(answer);
+        }
+
+        window.onload = function(){
+            let btn = document.querySelector('input[type=button]');
+            btn.addEventListener('click', checkedclick)
+        }
+    </script>
+</head>
+</html>
+    <body>
+        <form>
+            <input type="checkbox" name="hobby" value="등산">등산
+            <input type="checkbox" name="hobby" value="걷기">걷기
+            <input type="checkbox" name="hobby" value="요가">요가
+            <input type="checkbox" name="hobby" value="조깅">조깅
+            <input type="checkbox" name="hobby" value="서핑">서핑<br>
+            <input type="button" value="checked">
+        </form>
+    </body>
+</html>

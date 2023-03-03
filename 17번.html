@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<body>
+    <h1> 표 작업하기 </h1>
+    <script>
+        let cnt = 1;
+        const row = Number(prompt("행 크기를 입력하세요"));
+        const col = Number(prompt("열 크기를 입력하세요"));
+
+        document.write('<table border="1" width="200px">');
+            for (let i = 0; i < row; i++){
+                document.write('<tr>');
+                    for (let j = 0; j < col; j++){
+                        document.write('<td>${cnt++}</td>');
+                    }
+                    document.write('</tr>');
+            }
+            document.write('</table>');
+    </script>
+</body>

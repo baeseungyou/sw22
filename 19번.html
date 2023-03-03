@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<body>
+    <script>
+        let web = Number(prompt("창의 코딩 웹: "));
+        let python = Number(prompt("파이썬: "));
+        let eng = Number(prompt("생활 영어: "));
+
+        let hap = web + python + eng;
+        let ave = parseInt(hap/3);
+
+        let answer = '창의 코딩 웹: ${web}\n';
+        answer += '파이썬 : ${python}\n';
+        answer += '생활영어 : ${eng}\n';
+        answer += '전체합 : ${hap}\n';
+        answer += '평균 : ${ave}\n';
+
+        if(ave >= 60){
+            if(web >= 40 && python >= 40 && eng >= 40){
+                alert('${answer}합격입니다');
+            }
+            else{
+                alert('${answer}과락으로 인한 불합격입니다');
+            }
+        }
+        else {
+            alert('${answer}불합격입니다');
+        }
+    </script>
+</body>

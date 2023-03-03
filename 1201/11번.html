@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <script>
+        function checkedclick() {
+            let geth1 = document.getElementsByTagName('h1');
+            
+            let index = Math.floor(Math.random() * geth1.length);
+            
+            if(geth1[index].style.color == 'red'){
+                geth1[index].style.color = 'green';
+            }
+            else {
+                geth1[index].style.color = 'red';
+            }
+        }
+
+        window.onload = function () {
+            let btn = document.querySelector('input[type=button]');
+            btn.addEventListener('click', checkedclick)
+        }
+    </script>
+</head>
+
+<body>
+    <h1>1) 문서 객체</h1>
+    <h1>2) 텍스트 노드</h1>
+    <h1>3) 요소 노드</h1>
+    <input type="button" id="tagN" value="색상 변경 하기">
+</body>
+</html>
